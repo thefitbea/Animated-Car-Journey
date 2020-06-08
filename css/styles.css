@@ -23,4 +23,20 @@ body{
   background: url(../assets/Img_02.png);
   position: absolute;
   display: block;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+  animation: moveRight 6s linear;
+}
+
+.car{
+  position: absolute;
+  bottom: 32%;
+  left: 3%;
+}
+
+
+/* ANIMATIONS */
+@keyframes moveRight {
+  100%{transform: translateX(-2950px)}
 }
