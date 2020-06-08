@@ -26,14 +26,14 @@ body{
   bottom: 0%;
   left: 0%;
   background-repeat: repeat-x;
-  animation: moveRight 6s linear infinite;
+
 }
 
 .car{
   position: absolute;
   bottom: 7%;
   left: 18%;
-  animation: suspension .88s linear infinite;
+
 }
 
 
@@ -53,4 +53,15 @@ body{
   0%{
     transform: translateY(-1px);
   }
+}
+
+
+/* JAVASCRIPT CLASSES */
+
+.moveRight{
+  animation: moveRight 6s linear infinite;
+}
+
+.suspension{
+  animation: suspension 1s linear infinite;
 }
