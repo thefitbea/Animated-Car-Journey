@@ -26,17 +26,31 @@ body{
   bottom: 0%;
   left: 0%;
   background-repeat: repeat-x;
-  animation: moveRight 6s linear;
+  animation: moveRight 6s linear infinite;
 }
 
 .car{
   position: absolute;
   bottom: 7%;
   left: 18%;
+  animation: suspension .88s linear infinite;
 }
 
 
 /* ANIMATIONS */
 @keyframes moveRight {
-  100%{transform: translateX(-2950px)}
+  100%{
+    transform: translateX(-2950px);
+  }
+}
+@keyframes suspension {
+  100%{
+    transform: translateY(-1px);
+  }
+  50%{
+    transform: translateY(2px);
+  }
+  0%{
+    transform: translateY(-1px);
+  }
 }
