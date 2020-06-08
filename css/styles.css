@@ -1,0 +1,15 @@
+body{
+  margin: 0px;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  overflow-y: hidden;
+  /*  Hides Scroll bar on rightside */
+}
+
+.night{
+  width: 70vh;
+  height: 80vh;
+  /* border: 1px solid black; */
+  margin: 5rem auto;
+  background: url(../assets/Img_1.png);
+  background-size: cover;
+}
